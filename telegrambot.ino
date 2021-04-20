@@ -5,12 +5,12 @@
 #include <ArduinoJson.h>
 
 // Replace with your network credentials
-const char* ssid = "SSID";											// wifi ssid
-const char* password = "password";									// wifi password
+const char* ssid = "SSID";  // wifi ssid
+const char* password = "password";  // wifi password
 const int ledPin = 10;
 
-#define BOTtoken "XXXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 	// bot token (use your own here)
-#define CHAT_ID "XXXXXXXXXX"                                      	// chat id (use your own here)
+#define BOTtoken "XXXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // bot token (use your own here)
+#define CHAT_ID "XXXXXXXXXX"  // chat id (use your own here)
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
